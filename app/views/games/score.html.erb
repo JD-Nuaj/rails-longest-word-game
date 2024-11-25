@@ -1,0 +1,14 @@
+<div class="container my-5">
+  <div class="text-center mb-4">
+    <h1 class="display-4 text-success">Result for: <%= @user_word %></h1>
+  </div>
+
+  <div class="text-center mb-4">
+    <p class="fs-4"><%= @result %></p>
+    <p class="fw-bold fs-5">Score: <span class="badge bg-primary"><%= @score %></span></p>
+  </div>
+  
+  <div class="text-center">
+    <%= link_to "Start a new game", new_path, class: "btn btn-outline-primary btn-lg" %>
+  </div>
+</div>
